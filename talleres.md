@@ -1,6 +1,8 @@
 ---
+theme: jekyll-theme-hacker
+title: Talleres y Cursos
+description: Proyectos de docencia
 layout: page
-title: "Talleres y Cursos"
 ---
 # Talleres
 Para retroalimentación comunitaria he desarrollado las siguientes propuestas de talleres enfocados al desarrollo de la intuición matemática y la familiaridad con herramientas para el desarrollo tecnológico-digital
