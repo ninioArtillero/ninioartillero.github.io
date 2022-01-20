@@ -1,7 +1,7 @@
+---
 layout: page
 title: "Talleres y Cursos"
-permalink: /talleres/
-
+---
 # Talleres
 Para retroalimentación comunitaria he desarrollado las siguientes propuestas de talleres enfocados al desarrollo de la intuición matemática y la familiaridad con herramientas para el desarrollo tecnológico-digital
 

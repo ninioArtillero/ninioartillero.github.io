@@ -1,8 +1,13 @@
-# Prueba
-Página con ideas para [talleres y cursos](https://ninioartillero.github.io/talleres)
+# Secciones
+[Talleres y Cursos](https://ninioartillero.github.io/talleres)
 
-Página con algunas notas de [investigación](https://ninioartillero.github.io/investigacion)
+[Investigación](https://ninioartillero.github.io/investigacion)
 
+[Obra](https://ninioartillero.github.io/obra)
+
+[Biografía](https://ninioartillero.github.io/bio)
+
+[Fuentes](https://ninioartillero.github.io/fuentes)
 
 ## Welcome to GitHub Pages
 
