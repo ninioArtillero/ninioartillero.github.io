@@ -1,3 +1,9 @@
+# Prueba
+Página con ideas para [talleres y cursos](https://ninioartillero.github.io/talleres)
+
+Página con algunas notas de [investigación](https://ninioartillero.github.io/investigacion)
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ninioArtillero/ninioartillero.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
