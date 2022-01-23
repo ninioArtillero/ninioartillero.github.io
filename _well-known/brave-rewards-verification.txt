@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ninioartillero.github.io
+Token: ec215e245086c651669cd14412809a05b936f140232f36a41f92dfbc9e8515b3
