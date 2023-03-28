@@ -1,3 +1,7 @@
+---
+layout: page
+title: Referencias
+---
 
 ## Foros de interés
 [Garuda Linux](https://forum.garudalinux.org/)

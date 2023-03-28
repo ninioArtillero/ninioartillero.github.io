@@ -1,11 +1,12 @@
-# Secciones
+---
+layout: home
+---
 
-[Talleres y Cursos](https://ninioartillero.github.io/talleres)
+Dios dijo
 
-[Investigación](https://ninioartillero.github.io/investigacion)
+> Qué pedo mundo 
 
-[Obra](https://ninioartillero.github.io/obra)
+y el mundo surgió del caos primigenio.
 
-[Biografía](https://ninioartillero.github.io/bio)
 
-[Fuentes](https://ninioartillero.github.io/fuentes)
+

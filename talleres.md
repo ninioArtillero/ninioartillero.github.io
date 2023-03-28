@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Talleres y Cursos
 description: Proyectos de docencia
 ---

@@ -1,4 +1,7 @@
-# Herramientas
+---
+layout: page
+title: Herramientas
+---
 Un desglose de las herramientas y tecnologías utilizadas para investigación y producción musical
 
 ## Sistema
