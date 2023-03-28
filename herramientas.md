@@ -2,7 +2,6 @@
 layout: page
 title: Herramientas
 ---
-Un desglose de las herramientas y tecnologías utilizadas para investigación y producción musical
 
 ## Sistema
 
@@ -10,27 +9,33 @@ Sistema operativo: [Garuda Linux](https://garudalinux.org/)
 
 Multimedia framework: [PipeWire](https://pipewire.org/)
 
-JACK GUI: [QjackCtl](https://qjackctl.sourceforge.io/)
+Patchbay GUI: [qpwgraph](https://gitlab.freedesktop.org/rncbc/qpwgraph)
 
 Editores de texto: 
     
-1. [Doom Emacs](https://github.com/hlissner/doom-emacs)
-2. [Atom](https://atom.io/)
-3. [Neovim](https://neovim.io/)
+1. GUI: [Doom Emacs](https://github.com/doomemacs/doomemacs)
+1. Terminal: [Neovim](https://neovim.io/)
 
 DAW: [Reaper](https://www.reaper.fm/)
 
+## Investigación
+
+Manejo de bibliografía y referencias con [Zotero](https://www.zotero.org/).
+
+[Obsidian](https://obsidian.md/) para escritura de notas en Markdown. Útil para implementar el método [Zettelkasten](https://es.wikipedia.org/wiki/Zettelkasten).
+
 ## Lenguajes de programación
 
-[SuperCollider](https://supercollider.github.io/)
 
-[Pure Data](http://puredata.info/)
+[SuperCollider](https://supercollider.github.io/). 
+
+[Pure Data](http://puredata.info/). 
 
 [Tidal Cycles](https://tidalcycles.org/)
 
 [Haskell](https://www.haskell.org/)
 
-[Common Lisp](https://common-lisp.net/)
+[Scheme](https://www.scheme.org/)
 
 ## Hardware
 
