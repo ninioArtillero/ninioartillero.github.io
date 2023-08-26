@@ -1,10 +1,10 @@
-title: Niño Artillero
+title: ninioArtillero
 description: >
   Hocus Pocus y KameHameHas.
   Encuentros con chilacayotas cósmicas y piratas truchas.
 author:
-  name: NA
-  email: ixbalanque@protonmail.ch
+  name: Xavier Góngora
+  email: "xaviergongora.contacto@gmail.com"
 
 theme: minima
 
@@ -16,7 +16,7 @@ theme: minima
 # Theme-specific settings
 
 minima:
-  skin: solarized-dark
+  skin: auto
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #

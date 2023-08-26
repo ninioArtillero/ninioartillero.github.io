@@ -5,7 +5,7 @@ title: Talleres y Cursos
 
 ## Talleres
 
-Talleres de programación creativa con énfasis en el uso crítico del software, la cultura hacker y la intuición matemática.
+Talleres de programación creativa con énfasis en el uso crítico del software, cultura hacker e intuición matemática.
 
 ### Patrones con Tidal Cycles y Supercollider
 
