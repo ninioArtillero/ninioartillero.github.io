@@ -12,7 +12,7 @@ Hasta hace poco, lo único que había investigado sobre sistemas de archivos era
 
 ## Btrfs en Garuda Linux
 
-Fue al instalar [Garuda Linux](https://garudalinux.org) en mi _desktop_ que empecé a indagar en el tema. Una de sus características emblemáticas es el uso de _snapshots_ de [Btrfs](https://btrfs.readthedocs.io/en/latest/index.html) como estrategia de recuperación del sistema:[^btrfs] En caso de que el sistema se rompa, lo cual sucede en ocasiones al actualizarlo, se puede acceder a una lista imágenes previas del sistema desde un menu durante el arranque ([GRUB](https://en.wikipedia.org/wiki/GNU_GRUB)). Estas imágenes (las _snapshots_) se toman de manera automática antes y después de cada actualización del sistema.
+Fue al instalar [Garuda Linux](https://garudalinux.org) en mi _desktop_ que empecé a indagar en el tema. Una de sus características emblemáticas es el uso de _snapshots_ de [Btrfs](https://btrfs.readthedocs.io/en/latest/index.html) como estrategia de recuperación del sistema:[^btrfs] En caso de que el sistema se rompa, lo cual sucede en ocasiones al actualizarlo, se puede acceder a una lista imágenes previas del sistema desde el menú arranque ([GRUB](https://en.wikipedia.org/wiki/GNU_GRUB)). Estas imágenes (las _snapshots_) se toman de manera automática antes y después de cada actualización del sistema.
 Esta característica específica permite utilizar [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux), en la que se basa Garuda,[^garuda] de manera _confiable_. Arch es una distribución
 que (valga la redundancia) distribuye el software directo desde los repositorios de sus desarrolladores (_upstream_) de manera continua.[^rolling] La ventaja: siempre se tienen los ultimos
 arreglos, parches de seguridad y características. La desventaja: las cosas pueden salir mal y un programa o todo el sistema puede dejar de funcionar.
@@ -22,7 +22,8 @@ Ambas son razones por las que Arch Linux es una distribución considerada exclus
 
  [^btrfs]: Garuda es una de las primeras distribuciones que ofreció Btrfs como sistema de archivos por defecto. Este es un sistema de archivos _copy-on-write_(CoW), lo que permite la creación ágil de _snapshots_. Otro sistema de archivos CoW muy querido por los administradores de sistemas es [ZFS](https://en.wikipedia.org/wiki/ZFS), creado originalmente por Sun Microsystems.
 
-[^garuda]: Quizás sería más claro pensar Garuda Linux como una configuración empaquetada de Arch Linux. Sin embargo hay características que me la hacen merecer el título de distribución derivada: 
+[^garuda]: Quizás sería más claro pensar Garuda Linux como una configuración empaquetada de Arch Linux. Sin embargo hay características que le hacen merecer el título de distribución derivada: 
+
     * Incluye dos repositorios adicionales: garuda (desde donde distribuyen sus propias configuraciones y _scripts_) y [chaotic-aur](https://aur.chaotic.cx/).
     * Utilizan [Calamares](https://calamares.io/) para instalación con interfaz gráfica.
     * Además de la curaduría de paquetes pre-instalados, mantienen varios programas propios para la administración del sistema.
@@ -56,7 +57,7 @@ En Garuda se crean por defecto snapshots de `/`, cada vez que se hace una actual
 | @tmp                  | /var/tmp         |
 | @home                 | /home            |
     
-La función de este arreglo de subvolúmenes es omitir los directorios correspondientes de las snapshots. Estos contienen archivos que no conviene revertir al volver a un estado anterior del sistema. `/home` contiene los archivos y configuraciones personales de los usuarios. `/root` es análogo a `/home` para el usuario _root_. `/var/cache` contiene archivos transitorios de las aplicaciones. `/var/log` es para los registros del sistema. `/var/tmp` contiene archivos temporales que las aplicaciones preservan entre reinicios. `/srv` contiene archivos relacionados con servicios de red proporcionados por el sistema.[^fhs]
+La función de este arreglo de subvolúmenes es omitir los directorios correspondientes de las snapshots de `/`. Estos contienen archivos que no conviene revertir al volver a un estado anterior del sistema. `/home` contiene los archivos y configuraciones personales de los usuarios. `/root` es análogo a `/home` para el usuario _root_. `/var/cache` contiene archivos transitorios de las aplicaciones. `/var/log` es para los registros del sistema. `/var/tmp` contiene archivos temporales que las aplicaciones preservan entre reinicios. `/srv` contiene archivos relacionados con servicios de red proporcionados por el sistema.[^fhs]
 
 [^fhs]: Estos roles están especificados en la [Filesystem Hierarchy Standard (FHS)](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html) a la que se apega Arch Linux.
 
@@ -65,12 +66,12 @@ Tener `/home` en una partición separada me impidía administrarla con las herra
 
  [^subvol]: Por ejemplo, resulta trivial añadir un nuevo dispositivo de almacenamiento al sistema y redistribuir los archivos entre todos los dispositivos disponibles: simplemente se lo conecta, se añade al pozo de dispositivos y luego se da la instrucción de balancear el sistema de archivos. Para detalles ver este [tutorial](https://www.techrepublic.com/article/how-to-add-a-device-on-btrfs-system/).
  
- [^suse]: En Garuda el acomodo de subvolúmenes, utilizado por snapper, es [plano](https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/SysadminGuide.html#Flat) y está basado en el [acomodo de openSUSE](https://en.opensuse.org/SDB:BTRFS).
+ [^suse]: En Garuda el arreglo de subvolúmenes, utilizado por snapper, es [plano](https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/SysadminGuide.html#Flat) y está probablemente inspirado en el [arreglo de openSUSE](https://en.opensuse.org/SDB:BTRFS).
    
 
 ## Respaldar Doom Emacs
 
-Lograr utilizar lo aprendido sobre Btrfs para idear una simple estrategia para respaldar mi editor de texto me inspiró a escribir este _post_. Utilizó [Doom Emacs](https://github.com/doomemacs/doomemacs): una esquema de configuración para el clásico editor de texto hacker [Emacs](https://www.gnu.org/software/emacs/download.html). El problema con Doom es similar a Arch: muchos de los paquetes se actualizan regularmente siguiendo al _upstream_, además de que la configuración de Emacs puede ser temperamental _per se_. Esto me ha llevado en muchas ocasiones (significativamente más de las que me han sucedido con Arch), a que Doom deje de funcionar después de una actualización. La siguiente estrategia sólo aplica a instalaciones donde `/home` es (parte de) un sistema de archivos Btrfs.
+Lograr utilizar lo aprendido sobre Btrfs para idear una simple estrategia para respaldar mi editor de texto me inspiró a escribir este _post_. Utilizó [Doom Emacs](https://github.com/doomemacs/doomemacs): una esquema de configuración para el clásico editor de texto hacker [Emacs](https://www.gnu.org/software/emacs/download.html). El problema con Doom es similar a Arch: muchos de los paquetes se actualizan regularmente siguiendo al _upstream_, además de que la configuración de Emacs puede ser temperamental _per se_. Esto me ha llevado en muchas ocasiones (significativamente más de las que me han sucedido con Arch), a que Doom deje de funcionar después de una actualización. La siguiente estrategia sólo aplica a [sistemas operativos tipo-unix](https://en.wikipedia.org/wiki/Operating_system#Unix_and_Unix-like_operating_systems) donde `/home/user` (denotado `~`) es (parte de) un sistema de archivos Btrfs.
 
 ### La estrategia
 
@@ -88,7 +89,7 @@ y copiar todos los archivos (con sus propiedades) a la nueva ubicación:
 
 `cp -a ~/.emacs.d.bak/* ~/.emacs.d`
 
-Este último paso es relativamente innecesario, pues Doom es declarativo y su especificación se encuentra en `~/.doom.d`:[^doom] bastaría correr `doom sync -u` para volver a poblar esta ubicación. Sin embargo esto toma mucho tiempo.
+Este último paso es relativamente innecesario, pues Doom es declarativo y su especificación se encuentra en `~/.doom.d`:[^doom] bastaría correr `doom sync -u` para volver a poblar esta ubicación. Sin embargo es una descarga grande, que toma algo de tiempo y que podemos omitir.
 
 [^doom]: En este directorio se ubican tres archivos: uno para la especificación de componentes (`init.el`), otro para las opciones de configuración (`config.el`) y uno para paquetes adicionales (`packages.el`).
 
@@ -103,6 +104,6 @@ En caso de que la actualización deje a Doom fuera de combate, los siguientes pa
 1. Borrar la configuración defectuosa: `sudo btrfs subvolume delete ~/emacs.d/`
 1. Restaurar la vieja configuración: `sudo btrfs subvolume snapshot ~/.emacs.d.bak.ro ~/.emacs.d`
 
-Doom Emacs es un editor fantástico, y ahora no tengo reservas en actualizarlo más cotidianamente. Por su parte Btrfs me ha demostrado las posbilididades de los sistemas de archivos. La exploración de este tunel valió la pena (espero).
+Doom Emacs es un editor fantástico, y ahora no tengo reservas en actualizarlo más cotidianamente. Por su parte Btrfs me ha demostrado las posbilididades de los sistemas de archivos.
 
 ---
