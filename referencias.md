@@ -23,7 +23,7 @@ title: Referencias
 
 [perro tuerto](https://perrotuerto.blog/) - Metodologías libres para la publicación
 
-# Libros
+## Libros
 
 Abelson, Harold, Gerald Jay Sussman, y Julie Sussman. 2002. _Structure and Interpretation of Computer Programs._ 2. ed., 7. [pr.]. Electrical Engineering and Computer Science Series. Cambridge, Mass.: MIT Press [u.a.].
 
