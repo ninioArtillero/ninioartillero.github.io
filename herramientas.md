@@ -27,9 +27,9 @@ Manejo de bibliografía y referencias con [Zotero](https://www.zotero.org/).
 ## Lenguajes de programación
 
 
-[SuperCollider](https://supercollider.github.io/). 
+[SuperCollider](https://supercollider.github.io/)
 
-[Pure Data](http://puredata.info/). 
+[Pure Data](http://puredata.info/)
 
 [Tidal Cycles](https://tidalcycles.org/)
 
