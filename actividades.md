@@ -3,13 +3,13 @@ layout: page
 title: Actividades
 ---
 
-## TMSessions
+## [TMSessions](registro/tmsessions.html)
 
 2022.12.08
 
 Concierto en el que participaron varios integrantes del SPTM.
 
-![Cartel de TMSessions. Galería "Cantaro", colonia Mixcoac, CDMX. Hecho por Emilio Ocelotl.](imgs/tmsessions.jpg)
+![Cartel de TMSessions. Galería "Cantaro", colonia Mixcoac, CDMX. Hecho por Emilio Ocelotl.](imgs/2022-tmsessions/tmsessions.jpg)
 
 ## Presentación de "Algoritmos Arruinados"
 
