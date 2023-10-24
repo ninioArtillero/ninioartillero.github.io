@@ -3,7 +3,7 @@ layout: page
 title: Actividades
 ---
 
-## [TMSessions](registro/tmsessions.html)
+## [TMSessions](actividades/tmsessions.html)
 
 2022.12.08
 
