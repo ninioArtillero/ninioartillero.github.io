@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talleres y Cursos
+title: Docencia
 ---
 
 En seguida doy una descripción general de los talleres y cursos que estoy desarrollando para compartir
