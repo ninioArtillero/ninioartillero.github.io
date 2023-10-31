@@ -2,7 +2,7 @@
 layout: page
 title: Actividades
 ---
-## Festival Atoctli 2023
+## [Festival Atoctli 2023](actividades/2023-atoctli.html)
 
 2023.10.28
 
@@ -10,7 +10,7 @@ Conferencia "Introducción al live coding". En la Parroquia de la Natividad, Tep
 
 ![Festival Atoctli 2023 - Cartelera del sábado 28 de octubre.](imgs/atoctli-cartelera.jpg)
 
-## [TMSessions](actividades/tmsessions.html)
+## [TMSessions](actividades/2022-tmsessions.html)
 
 2022.12.08
 
