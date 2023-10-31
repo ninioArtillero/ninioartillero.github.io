@@ -12,4 +12,4 @@ title: Festival Atoctli 2023
 
 ![Reconocimiento de participación](../imgs/2023-atoctli/reconocimiento.jpg)
 
-![Cartelera Atoctli del sábado 28 de octubre](../imgs/2023-atocli/cartelera.jpg)
+![Cartelera Atoctli del sábado 28 de octubre](../imgs/2023-atoctli/cartelera.jpg)

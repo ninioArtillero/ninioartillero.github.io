@@ -8,7 +8,7 @@ title: Actividades
 
 Conferencia "Introducción al live coding". En la Parroquia de la Natividad, Tepoztlán, Morelos. 
 
-![Festival Atoctli 2023 - Cartelera del sábado 28 de octubre.](imgs/atoctli-cartelera.jpg)
+![Festival Atoctli 2023 - Cartelera del sábado 28 de octubre.](imgs/2023-atoctli/cartelera.jpg)
 
 ## [TMSessions](actividades/2022-tmsessions.html)
 
