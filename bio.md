@@ -8,4 +8,4 @@ Xavier Góngora fue iniciado en la improvisación jazzística por el compositor 
 
 ## Redes
 
-[OrcID](https://orcid.org/0000-0002-5759-7384), [GitHub](https://github.com/ninioArtillero), [Mastodon](https://qoto.org/@xavigo), [SoundCloud](https://soundcloud.com/ninio_artillero)
+[OrcID](https://orcid.org/0000-0002-5759-7384), [GitHub](https://github.com/ninioArtillero), [Mastodon](https://qoto.org/@xavigo), [SoundCloud](https://soundcloud.com/ninioartillero)
