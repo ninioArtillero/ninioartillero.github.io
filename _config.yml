@@ -4,6 +4,8 @@ description: >
   Encuentros con chilacayotas cósmicas y piratas truchas.
 author: Xavier Góngora
 email: "xaviergongora.contacto@gmail.com"
+tagline: Un blog sobre software libre, matemáticas y música
+locale: es_MX
 
 theme: minima
 
@@ -13,6 +15,16 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Social profiles
+# SEO-tag
+social:
+  name: Xavier Góngora
+  links:
+    - https://soundcloud.com/ninioartillero
+    - https://github.com/ninioArtillero
+    - https://qoto.org/@xavigo
+    - https://www.instagram.com/ninioartillero
+
 #
 # Theme-specific settings
 #
@@ -21,6 +33,7 @@ plugins:
 #
 github_username:  ninioArtillero
 instagram_username: ninioArtillero
+rss: rss
 
 mastodon:
  - username: xavigo
