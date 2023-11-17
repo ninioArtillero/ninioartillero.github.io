@@ -6,17 +6,15 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: Anuncios
 ---
-## Anuncios
-
-### Presentación en simposio virtual
+## Presentación en simposio virtual
 
 _Jueves 30 de Noviembre, 9:30 a 10:30 [CST (hora del centro de México)](https://time.is/CST)_
 
 Participaré en el encuentro [Algorithmic Pattern Salón](https://salon.algorithmicpattern.org/) presentando mi artículo [Rhythm: Time and Geometry](https://alpaca.pubpub.org/pub/s96d870n). Platicaré sobre el software que estoy desarrollando como parte de mi inverstigación doctoral. Se trata de un evento en línea abierto al que están todxs invitadxs. Para asistir es necesario registrarse [aquí](https://salon.algorithmicpattern.org/joining-info/).
 
-
-### Taller de Tidal Cycles en Tepoztlán
+## Taller de Tidal Cycles en Tepoztlán
 
 Próximamente daré un taller de iniciación en el uso de [Tidal Cycles](https://tidalcycles.org/) como una herramienta para crear música en el momento. No se requiere ningún conocimiento previo. 
 
