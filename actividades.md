@@ -8,7 +8,7 @@ title: Actividades
 
 Conferencia "Introducción al live coding". En la Parroquia de la Natividad, Tepoztlán, Morelos. 
 
-![Festival Atoctli 2023 - Cartelera del sábado 28 de octubre.](imgs/2023-atoctli/cartelera.jpg)
+[![Festival Atoctli 2023 - Cartelera del sábado 28 de octubre.](imgs/2023-atoctli/cartelera.jpg)](actividades/2023-atoctli.html)
 
 ## [TMSessions](actividades/2022-tmsessions.html)
 
@@ -16,7 +16,7 @@ Conferencia "Introducción al live coding". En la Parroquia de la Natividad, Tep
 
 Concierto con la participación de varios integrantes del SPTM.
 
-![Cartel de TMSessions. Galería "Cantaro", colonia Mixcoac, CDMX. Hecho por Emilio Ocelotl.](imgs/2022-tmsessions/tmsessions.jpg)
+[![Cartel de TMSessions. Galería "Cantaro", colonia Mixcoac, CDMX. Hecho por Emilio Ocelotl.](imgs/2022-tmsessions/tmsessions.jpg)](actividades/2022-tmsessions.html)
 
 ## Presentación de "Algoritmos Arruinados"
 
