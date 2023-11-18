@@ -29,6 +29,8 @@ Abelson, Harold, Gerald Jay Sussman, y Julie Sussman. 2002. _Structure and Inter
 
 Blackwell, Alan F., Emma Cocker, Geoff Cox, Alex McLean, y Thor Magnusson. 2022. [_Live coding: a user’s manual._](https://livecodingbook.toplap.org/) Software studies. Cambridge, Massachusetts: The MIT Press.
 
+García Castilla, Jorge David. 2015. [_Ruido Libre. La economía musical de la política_](https://elinstantedesisifo.cc/2022/03/22/ruido-libre-3/). Tesis doctoral, Ciudad de México: Universidad Nacional Autónoma de México.
+
 García Castilla, Jorge David, y Pablo Silva Treviño, eds. 2022. [_Algoritmos arruinados. Perspectivas situadas de tecnología musical._](http://www.repositorio.fam.unam.mx/handle/123456789/139) Alterfonías 2. Facultad de Música.
 
 Hofstadter, Douglas R. 1982. _Gödel, Escher, Bach: una eterna trenza dorada._ México: Consejo Nacional de Ciencia y Tecnología.
