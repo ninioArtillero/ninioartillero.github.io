@@ -36,8 +36,8 @@ instagram_username: ninioArtillero
 rss: rss
 
 mastodon:
- - username: xavigo
-   instance: qoto.org
+ - username: xg
+   instance: toplap.org
 
 minima:
   skin: auto
