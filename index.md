@@ -8,6 +8,8 @@
 layout: home
 title: Anuncios
 ---
+{% include mastodon.html %}
+
 ## Presentación en simposio virtual
 
 _Jueves 30 de Noviembre, 9:30 a 10:30 [CST (hora del centro de México)](https://time.is/CST)_
