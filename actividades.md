@@ -2,11 +2,20 @@
 layout: page
 title: Actividades
 ---
+## Ponencia en Algorithmic Pattern Salon
+
+2023.11.30
+
+[Ponencia](https://www.youtube.com/watch?v=lvxwg-h10Tw&t=7421s&list=PLxqmZjMvoVzzhyTQab_DCEqDIthsAiDzF&index=4) en el encuentro [Algorithmic Pattern Salon](https://salon.algorithmicpattern.org/)
+presentando mi artículo [Rhythm, Time and Geometry](https://alpaca.pubpub.org/pub/s96d870n).
+
+[![Portada del Algorithmic Pattern Salon](https://salon.algorithmicpattern.org/wp-content/uploads/sites/14/2023/11/algorithmicpattern.original-1200x600.png)](https://salon.algorithmicpattern.org/)
+
 ## [Festival Atoctli 2023](actividades/2023-atoctli.html)
 
 2023.10.28
 
-Conferencia "Introducción al live coding". En la Parroquia de la Natividad, Tepoztlán, Morelos. 
+Conferencia "Introducción al live coding". En la Parroquia de la Natividad, Tepoztlán, Morelos.
 
 [![Festival Atoctli 2023 - Cartelera del sábado 28 de octubre.](imgs/2023-atoctli/cartelera.jpg)](actividades/2023-atoctli.html)
 
@@ -37,4 +46,3 @@ Primer encuentro latinoamericano de música y tecnología, organizado por el SPT
 * [Registro y memoria](https://limmefamus.wordpress.com/transferencias-aurales/)
 
 ![Cartel de difusión Transferencias Aurales](imgs/transferencias-aurales.jpg)
-
