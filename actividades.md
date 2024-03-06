@@ -2,7 +2,7 @@
 layout: page
 title: Actividades
 ---
-## Ponencia en Algorithmic Pattern Salon
+## Algorithmic Pattern Salon
 
 2023.11.30
 
