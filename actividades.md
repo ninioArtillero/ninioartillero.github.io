@@ -10,7 +10,7 @@ Un taller de iniciación en el uso de [Tidal Cycles](https://tidalcycles.org/) p
 
 [^reconocimiento]: Este taller fue posible gracias a un micro-apoyo otorgado por Tidal Cycles en nombre de sus contribuyentes del opencollective: [https://opencollective.com/tidalcycles](https://opencollective.com/tidalcycles)
 
-[![Cartel para el taller de iniciacion a Tidal Cycles](imgs/2024-intro-tidal/cartel.png)](actividades/2024-tidal-init.html)
+[![Cartel para el taller de iniciacion a Tidal Cycles](imgs/2024-tidal-init/cartel.png)](actividades/2024-tidal-init.html)
 
 ## Algorithmic Pattern Salon
 

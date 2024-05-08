@@ -13,20 +13,20 @@ Un taller de iniciación al uso de [Tidal Cycles](https://tidalcycles.org/) para
 
 [^reconocimiento]: Este taller fue posible gracias a un micro-apoyo otorgado por Tidal Cycles en nombre de sus contribuyentes del opencollective: [https://opencollective.com/tidalcycles](https://opencollective.com/tidalcycles)
 
-![Cartel para el taller de iniciación a Tidal Cycles](imgs/2024-tidal-init/cartel.png)
+![Cartel para el taller de iniciación a Tidal Cycles](../imgs/2024-tidal-init/cartel.png)
 
-![Tallerista 1](imgs/2024-tidal-init/1.jpg)
+![Tallerista 1](../imgs/2024-tidal-init/1.jpg)
 
-![Participantes 1](imgs/2024-tidal-init/2.jpg)
+![Participantes 1](../imgs/2024-tidal-init/2.jpg)
 
-![Tallerista 2](imgs/2024-tidal-init/3.jpg)
+![Tallerista 2](../imgs/2024-tidal-init/3.jpg)
 
-![Taller en marcha](imgs/2024-tidal-init/4.jpg)
+![Taller en marcha](../imgs/2024-tidal-init/4.jpg)
 
-![Vista de la montaña](imgs/2024-tidal-init/5.jpg)
+![Vista de la montaña](../imgs/2024-tidal-init/5.jpg)
 
-![Participantes 2](imgs/2024-tidal-init/6.jpg)
+![Participantes 2](../imgs/2024-tidal-init/6.jpg)
 
-![Participantes 3](imgs/2024-tidal-init/7.jpg)
+![Participantes 3](../imgs/2024-tidal-init/7.jpg)
 
-![Participantes 4](imgs/2024-tidal-init/8.jpg)
+![Participantes 4](../imgs/2024-tidal-init/8.jpg)
