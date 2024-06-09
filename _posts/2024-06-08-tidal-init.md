@@ -9,6 +9,8 @@ My first son was born the month after and it has been an awesome ride!
 This little person is quite demanding, but also incredibly inspiring.
 I was finally able to give the workshop on March this year.
 
+[^1]: Thanks to the Tidal Cycles contributors of the [Open Collective](https://opencollective.com/tidalcycles) for making it possible through a micro-grant.
+
 ![Workshop flyer.](/imgs/2024-tidal-init/cartel.png)
 
 ## Tepoztlán
