@@ -36,7 +36,7 @@ the rights of the indigenous people of Tepoztlán.
 A second Alejandro is a high school senior involved with his neighborhood committee who he wants to study to become a mechatronics engineer.
 Finally, Oscar is a systems engineer and part of the Forest Ranger Association of Tepoztlán.
 
-![Good by photo. Oscar had already left.](../imgs/2024-tidal-init/8.jpg)
+![Goodbye photo.](../imgs/2024-tidal-init/8.jpg)
 
 The venue was Fernando Martín Juez's house, an architect and designer that left his house to become a Cultural Center after his passing.
 He made the necessary arrangements for an association of friends and neighbors to manage the place and make it a contribution to the town people.
@@ -75,4 +75,4 @@ Talking about next time, I'm thinking we will go through an introductory tutoria
 Hopefully more people will join by word of mouth. But to be honest, its enough for me to share with at least
 one person and making Fernando's house sound funny.
 
-[Workshop pictures and details (in spanish).](../actividades/2024-tidal-init.html)
+[Workshop pictures and details (in spanish).](../actividades/2024-tidal-init.md)
