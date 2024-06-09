@@ -1,23 +1,23 @@
 ---
-title: "Introduction to live coding with Tidal Cycles"
+title: "Live coding with Tidal Cycles Workshop in Tepoztlán"
 layout: post
 author: Xavier Góngora
 categories: report
 ---
-![Workshop flyer.](../imgs/2024-tidal-init/cartel.png)
-
 Last year I got a Tidal Cycles micro-grant in October to organize a live coding introductory workshop in Tepoztlán.
 My first son was born the month after and it all has been quite=z a ride since!
 This little person is quite demanding, but also incredibly inspiring.
 I was finally able to give the workshop this year on March 24.
 
-![View from the "Fernando Martín Juez" Cultural Center dinning room.](../imgs/2024-tidal-init/5.jpg)
+![Workshop flyer.](../imgs/2024-tidal-init/cartel.png)
 
 ## Tepoztlán
 
 Tepoztlán is located about 70 kilometers south of Mexico City, in a valley of steep mountains (that seem to have been pushed out from the underground) and lush glens during rainy season.
 It is a town proud of its traditions, remarkable by its cultural and religious syncretism.
 I've been living here for 7 years, and will continue for the foreseeable future. I hope my son grows to love its many faces and secrets.
+
+![View from the "Fernando Martín Juez" Cultural Center dinning room.](../imgs/2024-tidal-init/5.jpg)
 
 We are currently facing environmental and social imbalance caused by a complex
 real state black market that neglects the National Park status and regulations,
