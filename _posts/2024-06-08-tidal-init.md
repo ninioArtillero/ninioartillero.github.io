@@ -48,8 +48,8 @@ They are pretty aware of the contradictions and tensions that their hometown hos
 The venue was Fernando Martín Juez's house in the Santa Cruz neighborhood near the west mountain side.
 Fernando was an architect and designer that appointed his house to become a Cultural Center after his passing.
 He made the necessary arrangements for an association of friends and neighbors to manage the place and make it a contribution to the people of Tepoztlán.
-Unfortunately, the funds he left to kickstart activities are being held hostage by the bank (legal action has moved slowly),
-and the doors have been held shut except for some isolated events (of which ours is an example).
+Unfortunately, the funds he left to kickstart activities are being held hostage by a bank (legal action has moved slowly),
+and the doors have stayed shut except for some isolated events (of which ours is an example).
 The house has an exotic architecture, a rich color palette, and is full of little artifacts that Fernando collected.
 It was really a nice place to held the workshop and could become a spot for live coding sessions.
 
@@ -61,7 +61,7 @@ strategy to harness community efforts and build people centered technology.
 Then I talked about what live coding in general, sharing some online references and
 broadly explained what it meant in the context of computer music.
 This set the stage to introduce Tidal's architecture.
-Before the break, we watched a video performance of Alex Mclean (Tidal's creator) doing a from-scratch session.
+Before the break, we watched a video performance of Alex McLean (Tidal's creator) doing a from-scratch session.
 The slide presentation is available [here](https://docs.google.com/presentation/d/e/2PACX-1vQ8h38f0t9CYkyP1UftIe1l-mmtrQjxeYh7i5sU4nfKoINEiV3xXKlgnFXlWsV3QWcKoNI94d-5RFfU/pub?start=false&loop=false&delayms=0).
 
 ![Me showing some Tidal type stuff in relation to function signatures.](/imgs/2024-tidal-init/3.jpg)
@@ -77,9 +77,9 @@ It was fun seeing them go wild with the few functions I showed them.
 ## Aftermath
 
 In this first workshop I might have overwhelmed the participants by showing too much notation too soon.
-Introducing syntax elements and functions one at a time to build confidence will be the starting point next time.
-Also, I think that short solo test rounds could work better for the understanding of all and help build confidence.
-In the next session we could structure those rounds by following an introductory tutorial together.
+Next time we could do short solo test rounds when introducing syntax elements. 
+This might improve the understanding of all and help build confidence.
+Furthermore, those rounds could be structured by following an introductory tutorial.
 
 This was fun and I hope more people join, but I know developing a practice community takes time.
 It's not easy for people to commit, specially with everyone being so busy.
