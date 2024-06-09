@@ -4,12 +4,14 @@ layout: post
 author: Xavier Góngora
 categories: report
 ---
+![Workshop flyer.](../imgs/2024-tidal-init/cartel.png)
+
 Last year I got a Tidal Cycles micro-grant in October to organize a live coding introductory workshop in Tepoztlán.
 My first son was born the month after and it all has been quite=z a ride since!
 This little person is quite demanding, but also incredibly inspiring.
 I was finally able to give the workshop this year on March 24.
 
-![View from the "Fernando Martín Juez" Cultural Center dinning room](../imgs/2024-tidal-init/5.jpg)
+![View from the "Fernando Martín Juez" Cultural Center dinning room.](../imgs/2024-tidal-init/5.jpg)
 
 ## Tepoztlán
 
@@ -72,3 +74,5 @@ Introducing syntax elements and functions one at a time to build confidence will
 Talking about next time, I'm thinking we will go through an introductory tutorial together. 
 Hopefully more people will join by word of mouth. But to be honest, its enough for me to share with at least
 one person and making Fernando's house sound funny.
+
+[Workshop pictures and details (in spanish).](../actividades/2024-tidal-init.html)
