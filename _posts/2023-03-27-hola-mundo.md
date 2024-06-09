@@ -1,9 +1,8 @@
 ---
 title: "Que pedo Mundo"
 layout: post
-author:
-  name: NA
-  email: ixbalanque@protonmail.ch
+author: ninioArtillero
+categories: heresy
 ---
 
 Dios dijo

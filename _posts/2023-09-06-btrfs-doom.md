@@ -1,9 +1,11 @@
 ---
 title: "Btrfs y respaldo de sistemas"
 layout: post
-author:
-  name: Xavier Góngora
-  email: xaviergongora.contacto@gmail.com
+author: Xavier Góngora
+categories: 
+- technology
+- filesystem
+- linux
 ---
 Nunca había dedicado mucho tiempo a pensar sobre el [sistema de archivos](https://www.freecodecamp.org/news/file-systems-architecture-explained/) de mi computadora. 
 Desde el punto de vista de un usuario, los detalles de este tipo de tecnología son irrelevantes hasta que algo falla;
