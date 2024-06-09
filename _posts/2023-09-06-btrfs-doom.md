@@ -2,14 +2,14 @@
 title: "Btrfs y respaldo de sistemas"
 layout: post
 author: Xavier Góngora
-categories: 
+categories:
 - technology
-- filesystem
 - linux
+- filesystem
 ---
-Nunca había dedicado mucho tiempo a pensar sobre el [sistema de archivos](https://www.freecodecamp.org/news/file-systems-architecture-explained/) de mi computadora. 
+Nunca había dedicado mucho tiempo a pensar sobre el [sistema de archivos](https://www.freecodecamp.org/news/file-systems-architecture-explained/) de mi computadora.
 Desde el punto de vista de un usuario, los detalles de este tipo de tecnología son irrelevantes hasta que algo falla;
-se encuentra en un muy bajo nivel y es manejado por el sistema operativo. Su función es definir el uso de la memoria en disco. 
+se encuentra en un muy bajo nivel y es manejado por el sistema operativo. Su función es definir el uso de la memoria en disco.
 Hasta hace poco, lo único que había investigado sobre sistemas de archivos era en relación a temas de compatibilidad.[^exfat]
 
 ## Btrfs en Garuda Linux
@@ -24,7 +24,7 @@ Ambas son razones por las que Arch Linux es una distribución considerada exclus
 
  [^btrfs]: Garuda es una de las primeras distribuciones que ofreció Btrfs como sistema de archivos por defecto. Este es un sistema de archivos _copy-on-write_(CoW), lo que permite la creación ágil de _snapshots_. Otro sistema de archivos CoW muy querido por los administradores de sistemas es [ZFS](https://en.wikipedia.org/wiki/ZFS), creado originalmente por Sun Microsystems.
 
-[^garuda]: Quizás sería más claro pensar Garuda Linux como una configuración empaquetada de Arch Linux. Sin embargo hay características que le hacen merecer el título de distribución derivada: 
+[^garuda]: Quizás sería más claro pensar Garuda Linux como una configuración empaquetada de Arch Linux. Sin embargo hay características que le hacen merecer el título de distribución derivada:
 
     * Incluye dos repositorios adicionales: garuda (desde donde distribuyen sus propias configuraciones y _scripts_) y [chaotic-aur](https://aur.chaotic.cx/).
     * Utilizan [Calamares](https://calamares.io/) para instalación con interfaz gráfica.
@@ -41,10 +41,10 @@ Ambas son razones por las que Arch Linux es una distribución considerada exclus
 
 [^snap]: En Btrfs, una _snapshot_ es esencialmente un _subvolumen_. Ver [Fedora Magazine: Workging with Btrfs - Snapshots](https://fedoramagazine.org/working-with-btrfs-snapshots/)
 
-Es importante mencionar que estas _snapshots_ **no son una una solución de respaldo** para la integridad de los archivos (aunque se puede implementar con ellas). Dada la naturaleza de Btrfs, y los sistemas de archivos CoW, si un archivo está corrupto entonces lo está para todas las _snapshots_ que lo comparten. 
+Es importante mencionar que estas _snapshots_ **no son una una solución de respaldo** para la integridad de los archivos (aunque se puede implementar con ellas). Dada la naturaleza de Btrfs, y los sistemas de archivos CoW, si un archivo está corrupto entonces lo está para todas las _snapshots_ que lo comparten.
 
-Tuve que investigar estas cosas debido a que cuando instalé Garuda cometí un error inocente. Decidí hacerle caso a un [video tutorial](https://youtu.be/iBDIj-J3U28?si=NQ3gv1MOjY_fqmPj) de instalación en que se creaba una partición Btrfs separada para guardar los archivos personales (`/home`). Experiencias previas con otras distribuciones de Linux me habián enseñado la ventaja de tener particiones separadas para los archivos del sistema (`/`) y los archivos personales. 
-Sin embargo esto no aplicaba de la misma manera en Garuda. 
+Tuve que investigar estas cosas debido a que cuando instalé Garuda cometí un error inocente. Decidí hacerle caso a un [video tutorial](https://youtu.be/iBDIj-J3U28?si=NQ3gv1MOjY_fqmPj) de instalación en que se creaba una partición Btrfs separada para guardar los archivos personales (`/home`). Experiencias previas con otras distribuciones de Linux me habián enseñado la ventaja de tener particiones separadas para los archivos del sistema (`/`) y los archivos personales.
+Sin embargo esto no aplicaba de la misma manera en Garuda.
 Al hacer la partición, evité que el instalador de Garuda ubicara `/home` en su propio _subvolumen_. Los subvolúmenes de Btrfs son similares a una partición, pues
 permiten administrarla de manera independiente gracias a que establecen un tipo de división lógica, con la capacidad extra de acceder al almacenamiento disponible de forma dinámica.[^subvol]
 En Garuda se crean por defecto snapshots de `/`, cada vez que se hace una actualización del sistema. Para ilustrar como funciona esto hay que considerar el arreglo de subvolúmenes que hace Garuda al instalar el sistema:[^suse]
@@ -58,7 +58,7 @@ En Garuda se crean por defecto snapshots de `/`, cada vez que se hace una actual
 | @log                  | /var/log         |
 | @tmp                  | /var/tmp         |
 | @home                 | /home            |
-    
+
 La función de este arreglo de subvolúmenes es omitir los directorios correspondientes de las snapshots de `/`. Estos contienen archivos que no conviene revertir al volver a un estado anterior del sistema. `/home` contiene los archivos y configuraciones personales de los usuarios. `/root` es análogo a `/home` para el usuario _root_. `/var/cache` contiene archivos transitorios de las aplicaciones. `/var/log` es para los registros del sistema. `/var/tmp` contiene archivos temporales que las aplicaciones preservan entre reinicios. `/srv` contiene archivos relacionados con servicios de red proporcionados por el sistema.[^fhs]
 
 [^fhs]: Estos roles están especificados en la [Filesystem Hierarchy Standard (FHS)](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html) a la que se apega Arch Linux.
@@ -67,9 +67,9 @@ La función de este arreglo de subvolúmenes es omitir los directorios correspon
 Tener `/home` en una partición separada me impidía administrarla con las herramientas de Garuda que dependen de este arreglo, aunque la partición fuera también Btrfs. Además me empecé a quedar con espacio limitado en el disco para mis archivos. La solución que encontré a esto, evitando reinstalar todo el sistema, está documentada en el [foro de Garuda](https://forum.garudalinux.org/t/moving-home-partition-to-a-btrfs-subvolume/26336/10).
 
  [^subvol]: Por ejemplo, resulta trivial añadir un nuevo dispositivo de almacenamiento al sistema y redistribuir los archivos entre todos los dispositivos disponibles: simplemente se lo conecta, se añade al pozo de dispositivos y luego se da la instrucción de balancear el sistema de archivos. Para detalles ver este [tutorial](https://www.techrepublic.com/article/how-to-add-a-device-on-btrfs-system/).
- 
+
  [^suse]: En Garuda el arreglo de subvolúmenes, utilizado por snapper, es [plano](https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/SysadminGuide.html#Flat) y está probablemente inspirado en el [arreglo de openSUSE](https://en.opensuse.org/SDB:BTRFS).
-   
+
 
 ## Respaldar Doom Emacs
 
@@ -97,7 +97,7 @@ Este último paso es relativamente innecesario, pues Doom es declarativo y su es
 
 Si Doom está funcionando correctamente, podemos borrar el respaldo con `rm -rf ~/.emacs.d.bak`.
 
-**La estrategia consiste en crear una snaphot de solo escritura, o _read-only_,[^snap] antes una actualización**. 
+**La estrategia consiste en crear una snaphot de solo escritura, o _read-only_,[^snap] antes una actualización**.
 
 `sudo btrfs subvolume snapshot -r ~/.emacs.d/ ~/.emacs.d.bak.ro`
 

@@ -2,13 +2,11 @@
 title: "Que pedo Mundo"
 layout: post
 author: ninioArtillero
-categories: heresy
+category: poetry
 ---
 
 Dios dijo
 
-> Qué pedo Mundo 
+> Qué pedo Mundo
 
 y el mundo surgió del caos primigenio.
-
-
