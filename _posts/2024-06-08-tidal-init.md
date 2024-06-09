@@ -5,11 +5,11 @@ author: Xavier Góngora
 categories: report
 ---
 Last year I got a Tidal Cycles micro-grant in October to organize a live coding introductory workshop in Tepoztlán.
-My first son was born the month after and it all has been quite=z a ride since!
+My first son was born the month after and it has been quite a ride since!
 This little person is quite demanding, but also incredibly inspiring.
 I was finally able to give the workshop this year on March 24.
 
-![Workshop flyer.](../imgs/2024-tidal-init/cartel.png)
+![Workshop flyer.](/imgs/2024-tidal-init/cartel.png)
 
 ## Tepoztlán
 
@@ -17,7 +17,7 @@ Tepoztlán is located about 70 kilometers south of Mexico City, in a valley of s
 It is a town proud of its traditions, remarkable by its cultural and religious syncretism.
 I've been living here for 7 years, and will continue for the foreseeable future. I hope my son grows to love its many faces and secrets.
 
-![View from the "Fernando Martín Juez" Cultural Center dinning room.](../imgs/2024-tidal-init/5.jpg)
+![View from the "Fernando Martín Juez" Cultural Center dinning room.](/imgs/2024-tidal-init/5.jpg)
 
 We are currently facing environmental and social imbalance caused by a complex
 real state black market that neglects the National Park status and regulations,
@@ -28,7 +28,7 @@ Giving this workshop is a first step for me to share my artistic and research in
 
 ## The assistants and the venue
 
-![The four workshop participants.](../imgs/2024-tidal-init/7.jpg)
+![The four workshop participants.](/imgs/2024-tidal-init/7.jpg)
 
 Four people came to the workshop. Alejandro is an economist but works as a carpenter for a living.
 Roberto is a front-end developer and environmental activist that links the preservation of the mountains and forests with 
@@ -36,7 +36,7 @@ the rights of the indigenous people of Tepoztlán.
 A second Alejandro is a high school senior involved with his neighborhood committee who he wants to study to become a mechatronics engineer.
 Finally, Oscar is a systems engineer and part of the Forest Ranger Association of Tepoztlán.
 
-![Goodbye photo.](../imgs/2024-tidal-init/8.jpg)
+![Goodbye photo.](/imgs/2024-tidal-init/8.jpg)
 
 The venue was Fernando Martín Juez's house, an architect and designer that left his house to become a Cultural Center after his passing.
 He made the necessary arrangements for an association of friends and neighbors to manage the place and make it a contribution to the town people.
@@ -47,7 +47,7 @@ It was really a nice place to held the workshop, and hopefully could become a me
 
 ## The workshop
 
-![Me showing some Tidal type stuff in relation to function signatures.](../imgs/2024-tidal-init/3.jpg)
+![Me showing some Tidal type stuff in relation to function signatures.](/imgs/2024-tidal-init/3.jpg)
 
 For the first half of the workshop I gave a talk for context.
 First I discussed what free and open source software is, and how it is
@@ -75,4 +75,4 @@ Talking about next time, I'm thinking we will go through an introductory tutoria
 Hopefully more people will join by word of mouth. But to be honest, its enough for me to share with at least
 one person and making Fernando's house sound funny.
 
-[Workshop pictures and details (in spanish).](../actividades/2024-tidal-init.md)
+[Workshop pictures and details (in spanish).](/actividades/2024-tidal-init.html)
