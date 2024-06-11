@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Biografía
+title: Personal
 ---
 ## Semblanza
 
@@ -10,7 +10,7 @@ Xavier Góngora fue iniciado en la improvisación jazzística por el compositor 
 
 ## Tecnologías
 
-Tecnologías que utilizo.
+Tecnologías que utilizo para creación musical e investigación.
 
 ### Software
 
