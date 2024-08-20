@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Anuncios
+title: Announcements
 ---
 {% include mastodon.html %}
 

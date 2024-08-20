@@ -4,8 +4,8 @@ description: >
   Encuentros con chilacayotas cósmicas y piratas truchas.
 author: Xavier Góngora
 email: "xaviergongora.contacto@gmail.com"
-tagline: Un blog sobre software libre, matemáticas y música
-locale: es_MX
+tagline: Xavier Gongora's personal blog
+locale: en_US
 
 theme: minima
 
@@ -50,12 +50,19 @@ minima:
 # order as they should show up.
 #
 header_pages:
-  - actividades.md
-  - musica.md
-  - docencia.md
-  - archivo.md
-  - personal.md
+  - activities.md
+  - music.md
+  - teaching.md
+  - publications.md
+  - archive.md
+  - about.md
 
 # Set to `true` to show excerpts on the homepage.
 #
 show_excerpts: true
+
+defaults:
+  - scope:
+      path: "assets/pub"
+    values:
+      publication: true

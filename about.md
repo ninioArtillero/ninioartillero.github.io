@@ -1,37 +1,42 @@
 ---
 layout: page
-title: Personal
+title: About
 ---
-## Semblanza
+## Semblance
 
 Xavier Góngora fue iniciado en la improvisación jazzística por el compositor Alberto Palomo en Mérida, Yucatán. Matemático egresado de la UNAM, estudió geometría compleja y cuántica con Micho Durdevich, a quién debe su vocación al estudio transdisciplinario de las matemáticas y la música. Adquirió el grado de Maestro en Tecnología Musical por la UNAM con su tesis sobre remix y sampleo como formas de composición y re-apropiación bajo la guía de Jorge David García. Actualmente es discípulo de las montañas de Tepoztlán y trabaja en una tesis de doctorado sobre lenguajes de programación, música y geometría. Niño Artillero es su proyecto musical personal. Mantiene un compromiso de vida, cuidado y libertad con la artista visual y plástica Victoria Karmín. Con su obra y palabra, Xavier incorpora las enseñanzas de sus maestros en la expresión de la dignidad de su linaje.
 
+Xavier Góngora was introduced to jazz improvisation by composer Alberto Palomo in Mérida, Yucatán. While pursuing his degree in mathematics at UNAM, he delved into complex and quantum geometry under the mentorship of Micho Durdevich, who ignited his passion for the transdisciplinary exploration of mathematics and music. He went on to earn a Master’s degree in Music Technology from UNAM, with a thesis on remixing and sampling as forms of composition and re-appropriation, guided by Jorge David García. Currently, he draws inspiration from the mountains of Tepoztlán as he works on his doctoral thesis, which explores the intersections of programming languages, music, and geometry. His personal musical project, Niño Artillero, embodies his interdisciplinary approach, blending elements of art, mathematics, and technology. Together with visual and plastic artist Victoria Karmín, he shares a commitment to supporting each other’s vision through dedication to life, caregiving, and freedom. Through his work and word, Xavier incorporates the teachings of his mentors, honoring the dignity of his lineage.
+
 {% include orcid.html %}
 
-## Tecnologías
+## Tech Stack
 
 Tecnologías que utilizo para creación musical e investigación.
 
 ### Software
 
-Sistema operativo: [Garuda Linux](https://garudalinux.org/)
+Operating System: 
 
-Multimedia framework: [PipeWire](https://pipewire.org/)
+* [Garuda Linux](https://garudalinux.org/)
+* [NixOS](https://nixos.org/)
+
+Multimedia Framework: [PipeWire](https://pipewire.org/)
 
 Patchbay GUI: [qpwgraph](https://gitlab.freedesktop.org/rncbc/qpwgraph)
 
-Editores de texto: 
+Text Editors: 
     
-1. GUI: [Doom Emacs](https://github.com/doomemacs/doomemacs)
-1. Terminal: [Neovim](https://neovim.io/)
+* GUI: [Doom Emacs](https://github.com/doomemacs/doomemacs)
+* Terminal: [Neovim](https://neovim.io/)
 
 DAW: [Reaper](https://www.reaper.fm/)
 
-Manejo de bibliografía y referencias con [Zotero](https://www.zotero.org/).
+Bibliographic References Management: [Zotero](https://www.zotero.org/).
 
-[Obsidian](https://obsidian.md/) para escritura de notas en Markdown. Útil para implementar el método [Zettelkasten](https://es.wikipedia.org/wiki/Zettelkasten).
+Note Taking: [Obsidian](https://obsidian.md/)
 
-### Lenguajes de programación
+### Programming Languages
 
 [SuperCollider](https://supercollider.github.io/)
 
@@ -45,13 +50,13 @@ Manejo de bibliografía y referencias con [Zotero](https://www.zotero.org/).
 
 ### Hardware
 
-[Componentes de mi computadora de escritorio](https://pcpartpicker.com/b/6gk6Mp)
+[Desktop Computer Parts](https://pcpartpicker.com/b/6gk6Mp)
 
-## Referencias
+## References
 
-Algunas referencias y fuentes clave para mi trabajo e investigación.
+Key references and sources related to my work and research.
 
-### Foros comunitarios
+### Community Forums
 
 [Garuda Linux Forum](https://forum.garudalinux.org/)
 
@@ -61,17 +66,15 @@ Algunas referencias y fuentes clave para mi trabajo e investigación.
 
 [LinuxMusicians](https://linuxmusicians.com/)
 
-### Páginas personales
+### Personal Sites
 
-[Vitalik Buterin](https://vitalik.ca/) - Ethereum, tecnologías web y algoritmos
+[Alex McLean](https://slab.org/) - Tidal Cycles and Algorithmic Pattern
 
-[Alex McLean](https://slab.org/) - Tidal Cycles, live coding y tecnologías libres
-
-[David Runge](https://sleepmap.de/) - Audio profesional en Arch Linux
+[David Runge](https://sleepmap.de/) - Pro-Audio in Arch Linux
 
 [perro tuerto](https://perrotuerto.blog/) - Metodologías libres para la publicación
 
-### Libros
+### Books
 
 Abelson, Harold, Gerald Jay Sussman, y Julie Sussman. 2002. _Structure and Interpretation of Computer Programs._ 2. ed., 7. [pr.]. Electrical Engineering and Computer Science Series. Cambridge, Mass.: MIT Press [u.a.].
 

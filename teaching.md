@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Docencia
+title: Teaching
 ---
 
-Talleres y cursos que estoy desarrollando en el campo de la tecnología musical.
+Courses and Workshops, mostly in music technology related topics.
 
 ## Patrones con Tidal Cycles (Taller)
 

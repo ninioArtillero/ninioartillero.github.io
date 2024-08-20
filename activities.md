@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Actividades
+title: Activities
 ---
 ## Taller de introducción al live coding con Tidal Cycles
 

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Archivo
+title: Archive
 ---
-## Posts del blog
+## Blog Posts
+
 <ul>
   {% for post in site.posts %}
     <li>
