@@ -66,3 +66,11 @@ defaults:
       path: "assets/pub"
     values:
       publication: true
+  - scope:
+      path: "assets/pub/proceedings"
+    values:
+      proceedings: true
+  -scope:
+      path: "assets/pub/chapters"
+    values:
+      chapter: true
