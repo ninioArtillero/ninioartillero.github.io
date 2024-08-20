@@ -4,9 +4,9 @@ layout: page
 ---
 ## Proceedings Papers
 
-{% assign publication_files = site.static_files | where: "proceedings", true %}
-{% for mypublication in publication_files %}
-  [{{mypublication.basename}}]({{ mypublication.path }})
+{% assign confpaper_files = site.static_files | where: "proceedings", true %}
+{% for myconfpaper in confpaper_files %}
+  [{{myconfpaper.basename}}]({{ mypublication.path }})
 {% endfor %}
 
 ### Online
@@ -15,8 +15,8 @@ layout: page
 
 ## Book Chapters
 
-{% assign publication_files = site.static_files | where: "chapter", true %}
-{% for mypublication in publication_files %}
+{% assign chapter_files = site.static_files | where: "chapter", true %}
+{% for mychapter in chapter_files %}
   [{{mypublication.basename}}]({{ mypublication.path }})
 {% endfor %}
 
