@@ -6,7 +6,7 @@ layout: page
 
 {% assign confpaper_files = site.static_files | where: "proceedings", true %}
 {% for myconfpaper in confpaper_files %}
-  [{{myconfpaper.basename}}]({{ mypublication.path }})
+  [{{myconfpaper.basename}}]({{ myconfpaper.path }})
 {% endfor %}
 
 ### Online
@@ -17,6 +17,6 @@ layout: page
 
 {% assign chapter_files = site.static_files | where: "chapter", true %}
 {% for mychapter in chapter_files %}
-  [{{mypublication.basename}}]({{ mypublication.path }})
+  [{{mychapter.basename}}]({{ mychapter.path }})
 {% endfor %}
 
