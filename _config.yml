@@ -63,10 +63,6 @@ show_excerpts: true
 
 defaults:
   - scope:
-      path: "assets/pub"
-    values:
-      publication: true
-  - scope:
       path: "assets/pub/proceedings"
     values:
       proceedings: true
