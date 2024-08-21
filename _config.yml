@@ -63,10 +63,13 @@ show_excerpts: true
 
 defaults:
   - scope:
-      path: "assets/pub/proceedings"
-    values:
-      proceedings: true
-  -scope:
       path: "assets/pub/chapters"
     values:
-      chapter: true
+      publication: true
+      category: "chapters"
+
+  - scope:
+      path: "assets/pub/proceedings"
+    values:
+      publication: true
+      category: "proceedings"
