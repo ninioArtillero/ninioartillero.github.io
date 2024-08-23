@@ -4,15 +4,17 @@ title: About
 ---
 ## Semblance
 
-Xavier Góngora fue iniciado en la improvisación jazzística por el compositor Alberto Palomo en Mérida, Yucatán. Matemático egresado de la UNAM, estudió geometría compleja y cuántica con Micho Durdevich, a quién debe su vocación al estudio transdisciplinario de las matemáticas y la música. Adquirió el grado de Maestro en Tecnología Musical por la UNAM con su tesis sobre remix y sampleo como formas de composición y re-apropiación bajo la guía de Jorge David García. Actualmente es discípulo de las montañas de Tepoztlán y trabaja en una tesis de doctorado sobre lenguajes de programación, música y geometría. Niño Artillero es su proyecto musical personal. Mantiene un compromiso de vida, cuidado y libertad con la artista visual y plástica Victoria Karmín. Con su obra y palabra, Xavier incorpora las enseñanzas de sus maestros en la expresión de la dignidad de su linaje.
-
 Xavier Góngora was introduced to jazz improvisation by composer Alberto Palomo in Mérida, Yucatán. While pursuing his degree in mathematics at UNAM, he delved into complex and quantum geometry under the mentorship of Micho Durdevich, who ignited his passion for the transdisciplinary exploration of mathematics and music. He went on to earn a Master’s degree in Music Technology from UNAM, with a thesis on remixing and sampling as forms of composition and re-appropriation, guided by Jorge David García. Currently, he draws inspiration from the mountains of Tepoztlán as he works on his doctoral thesis, which explores the intersections of programming languages, music, and geometry. His personal musical project, Niño Artillero, embodies his interdisciplinary approach, blending elements of art, mathematics, and technology. Together with visual and plastic artist Victoria Karmín, he shares a commitment to supporting each other’s vision through dedication to life, caregiving, and freedom. Through his work and word, Xavier incorporates the teachings of his mentors, honoring the dignity of his lineage.
+
+## Semblanza
+
+Xavier Góngora fue iniciado en la improvisación jazzística por el compositor Alberto Palomo en Mérida, Yucatán. Matemático egresado de la UNAM, estudió geometría compleja y cuántica con Micho Durdevich, a quién debe su vocación al estudio transdisciplinario de las matemáticas y la música. Adquirió el grado de Maestro en Tecnología Musical por la UNAM con su tesis sobre remix y sampleo como formas de composición y re-apropiación bajo la guía de Jorge David García. Actualmente es discípulo de las montañas de Tepoztlán y trabaja en una tesis de doctorado sobre lenguajes de programación, música y geometría. Niño Artillero es su proyecto musical personal. Mantiene un compromiso de vida, cuidado y libertad con la artista visual y plástica Victoria Karmín. Con su obra y palabra, Xavier incorpora las enseñanzas de sus maestros en la expresión de la dignidad de su linaje.
 
 {% include orcid.html %}
 
 ## Tech Stack
 
-Tecnologías que utilizo para creación musical e investigación.
+Technologies I use.
 
 ### Software
 
@@ -54,7 +56,7 @@ Note Taking: [Obsidian](https://obsidian.md/)
 
 ## References
 
-Key references and sources related to my work and research.
+Key references and sources.
 
 ### Community Forums
 
