@@ -8,7 +8,6 @@ _site/
 .bundle/
 vendor/
 Gemfile.lock
-Gemfile
 
 # Gems
 *.gem
