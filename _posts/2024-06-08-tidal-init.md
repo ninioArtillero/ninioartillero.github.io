@@ -27,8 +27,8 @@ real state black market, that neglects the National Park status and regulations,
 and annual fires that threaten the ecosystem.
 In this context, nurturing community is critical to counteract the dismantling of the social fabric.
 This is no easy task, as the social spheres seem to orbit different stars at times.
-Before this workshop I gave an open talk at the central church about algorithms and live coding practie.
-So this is a second effort towards sharing my artistic and research interests in my local community,
+Before this workshop I gave a talk at the central church about algorithms and live coding practice.
+So this is a second effort towards sharing both my artistic and research interests with my local community,
 as most of my activities are usually online or in Mexico City.
 
 ## Assistants and venue
