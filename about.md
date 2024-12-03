@@ -12,13 +12,13 @@ Xavier Góngora fue iniciado en la improvisación jazzística por el compositor 
 
 {% include orcid.html %}
 
-| Programming Languages                             | Audio                                                                   | Office                                                           | System                                   |
-|---------------------------------------------------|:-----------------------------------------------------------------------:|:----------------------------------------------------------------:|:----------------------------------------:|
-| [SuperCollider](https://supercollider.github.io/) | Patchbay GUI: [qpwgraph](https://gitlab.freedesktop.org/rncbc/qpwgraph) | GUI Editor: [Doom Emacs](https://github.com/doomemacs/doomemacs) | [Garuda Linux](https://garudalinux.org/) |
-| [Pure Data](http://puredata.info/)                | DAW: [Reaper](https://www.reaper.fm/)                                   | Bibliography Management: [Zotero](https://www.zotero.org/)       | [NixOS](https://nixos.org/)              |
-| [Tidal Cycles](https://tidalcycles.org/)          | Multimedia Framework: [PipeWire](https://pipewire.org/)                 | Terminal Editor: [LazyVim](https://www.lazyvim.org/)             | Algorithmic Pattern (2020)               |
-| [Haskell](https://www.haskell.org/)               | Coordinador principal 2013                                              | Note Taking (Zettelkasten): [Obsidian](https://obsidian.md/)     | Coordinador principal 2014               |
-| [Scheme](https://www.scheme.org/)                 |                                                                         |                                                                  |                                          |
+| Programming Languages                             | Multimedia                                                              | Text and Office                                                  | System, Package Management and Browser                             |
+|---------------------------------------------------|:-----------------------------------------------------------------------:|:----------------------------------------------------------------:|:------------------------------------------------------------------:|
+| [SuperCollider](https://supercollider.github.io/) | Patchbay GUI: [qpwgraph](https://gitlab.freedesktop.org/rncbc/qpwgraph) | GUI Editor: [Doom Emacs](https://github.com/doomemacs/doomemacs) | [Garuda Linux](https://garudalinux.org/)                           |
+| [Pure Data](http://puredata.info/)                | DAW: [Reaper](https://www.reaper.fm/)                                   | Bibliography Management: [Zotero](https://www.zotero.org/)       | [NixOS](https://nixos.org/)                                        |
+| [Tidal Cycles](https://tidalcycles.org/)          | Multimedia Framework: [PipeWire](https://pipewire.org/)                 | Terminal Editor: [LazyVim](https://www.lazyvim.org/)             | [Guix](https://guix.gnu.org/)                                      |
+| [Haskell](https://www.haskell.org/)               | Streamming: [OBS Studio](https://obsproject.com/)                       | Note Taking (Zettelkasten): [Obsidian](https://obsidian.md/)     | Browser: [FireDragon](https://dr460nf1r3.org/projects/firedragon/) |
+| [Scheme](https://www.scheme.org/)                 | Music Playback: [Audacious](https://audacious-media-player.org/)        | Office Suite: [Libre Office](https://www.libreoffice.org/)       | Search Engine: [Presearch](https://presearch.com/)                 |
 
 [Desktop Computer Parts](https://pcpartpicker.com/b/6gk6Mp)
 
@@ -62,4 +62,4 @@ Needham, Tristan. 1997. _Visual Complex Analysis._ Oxford : New York: Clarendo
 
 Penrose, Roger. 2002. _La mente nueva del emperador: en torno a la cibernética, la mente y las leyes de la física._ Traducido por José Javier García Sánz. México: Fondo de Cultura Económica.
 
-Toussaint, Godfried T. 2020. _The Geometry of Musical Rhythm: What Makes a “Good” Rhythm Good?_ Second edition. Boca Raton London New York: CRC Press. 
+Toussaint, Godfried T. 2020. _The Geometry of Musical Rhythm: What Makes a “Good” Rhythm Good?_ Second edition. Boca Raton London New York: CRC Press.
