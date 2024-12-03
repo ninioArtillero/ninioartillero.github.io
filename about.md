@@ -12,51 +12,17 @@ Xavier Góngora fue iniciado en la improvisación jazzística por el compositor 
 
 {% include orcid.html %}
 
-## Tech Stack
-
-Technologies I use.
-
-### Software
-
-Operating System: 
-
-* [Garuda Linux](https://garudalinux.org/)
-* [NixOS](https://nixos.org/)
-
-Multimedia Framework: [PipeWire](https://pipewire.org/)
-
-Patchbay GUI: [qpwgraph](https://gitlab.freedesktop.org/rncbc/qpwgraph)
-
-Text Editors: 
-    
-* GUI: [Doom Emacs](https://github.com/doomemacs/doomemacs)
-* Terminal: [Neovim](https://neovim.io/)
-
-DAW: [Reaper](https://www.reaper.fm/)
-
-Bibliographic References Management: [Zotero](https://www.zotero.org/).
-
-Note Taking: [Obsidian](https://obsidian.md/)
-
-### Programming Languages
-
-[SuperCollider](https://supercollider.github.io/)
-
-[Pure Data](http://puredata.info/)
-
-[Tidal Cycles](https://tidalcycles.org/)
-
-[Haskell](https://www.haskell.org/)
-
-[Scheme](https://www.scheme.org/)
-
-### Hardware
+| Programming Languages                             | Audio                                                                   | Office                                                           | System                                   |
+|---------------------------------------------------|:-----------------------------------------------------------------------:|:----------------------------------------------------------------:|:----------------------------------------:|
+| [SuperCollider](https://supercollider.github.io/) | Patchbay GUI: [qpwgraph](https://gitlab.freedesktop.org/rncbc/qpwgraph) | GUI Editor: [Doom Emacs](https://github.com/doomemacs/doomemacs) | [Garuda Linux](https://garudalinux.org/) |
+| [Pure Data](http://puredata.info/)                | DAW: [Reaper](https://www.reaper.fm/)                                   | Bibliography Management: [Zotero](https://www.zotero.org/)       | [NixOS](https://nixos.org/)              |
+| [Tidal Cycles](https://tidalcycles.org/)          | Multimedia Framework: [PipeWire](https://pipewire.org/)                 | Terminal Editor: [LazyVim](https://www.lazyvim.org/)             | Algorithmic Pattern (2020)               |
+| [Haskell](https://www.haskell.org/)               | Coordinador principal 2013                                              | Note Taking (Zettelkasten): [Obsidian](https://obsidian.md/)     | Coordinador principal 2014               |
+| [Scheme](https://www.scheme.org/)                 |                                                                         |                                                                  |                                          |
 
 [Desktop Computer Parts](https://pcpartpicker.com/b/6gk6Mp)
 
 ## References
-
-Key references and sources.
 
 ### Community Forums
 
