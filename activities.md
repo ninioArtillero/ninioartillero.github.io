@@ -2,6 +2,23 @@
 layout: page
 title: Activities
 ---
+## Transferencias Aurales
+
+2024.11.11-15
+
+Desde inicios de este año en el SPTM nos dedicamos al diseño, organización y gestión del **Segundo Encuentro Latinoamericano de Música y Tecnología: Transferencias Aurales**.
+
+Este encuentro reunió a músicxs, artistas, programadorxs, activistas e investigadorxs de 11 países en las instalaciones del [Ciclo de Iniciación Artística y Educación Continua CIAyEC](https://maps.app.goo.gl/H9NbjbEtxBCYLr12A) de la Facultad de Música, UNAM
+
+Tuvimos una gran [programa](assets/transferencias-aurales-2/programa.pdf) carga de conferencias magistrales, ponencias, [talleres](assets/transferencias-aurales-2/talleres.pdf), instalaciones y conciertos.
+
+Agradezco a todxs lxs participantes y colaboradorxs que hicieron posible este evento. Me llevó muchas conversaciones esporádicas, gratas covergencias y sonidos imposibles.
+En latinoamérica se está haciendo trabajo artístico de mucha relevancia que en el marco de este evento vimos a través del lente de la tecnología musical en su acepción más amplia.
+
+![Cartel de Transferencias Aurales II](imgs/transferencias-aurales-2.jpeg)
+
+Convocatoria (**cerrada**): [aquí](https://archive.org/details/convocatoria-transferencias-aurales-2).
+
 ## Taller de introducción al live coding con Tidal Cycles
 
 2024.03.23
