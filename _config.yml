@@ -11,9 +11,9 @@ theme: minima
 
 # Runtime gem dependencies of minima
 #
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# plugins:
+#  - jekyll-feed
+#  - jekyll-seo-tag
 
 # Social profiles
 # SEO-tag
@@ -22,7 +22,7 @@ social:
   links:
     - https://soundcloud.com/ninioartillero
     - https://github.com/ninioArtillero
-    - https://qoto.org/@xavigo
+    - https://social.toplap.org/@xg
     - https://www.instagram.com/ninioartillero
 
 #
@@ -37,7 +37,7 @@ rss: rss
 
 mastodon:
  - username: xg
-   instance: toplap.org
+   instance: social.toplap.org
 
 minima:
   skin: auto
