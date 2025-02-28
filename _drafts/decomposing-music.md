@@ -1,5 +1,12 @@
-# Decomposing music
-
+---
+title: "Musical dimensions"
+layout: post
+author: Xavier Góngora
+categories:
+- programming languages
+- music notation
+- music theory
+---
 Inspired by computer music software, we attempt a reckless decomposition of musical structure into the orthogonal dimensions of \emph{sample} and \emph{rhythm}. 
 The former alludes to an audio sample file, working as
 an abstraction over musical properties such as pitch and timbre. From a
