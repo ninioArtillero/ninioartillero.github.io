@@ -6,6 +6,8 @@ Ejecutar localmente con
 bundle exec jekyll serve --livereload
 ```
 
++ [ ] Actualizar links con `{% link assets/files/doc.pdf %}` o `{% post_url year-month-date-post-title}`
+
 ## Referencias
 
 https://github.com/jekyll/minima
