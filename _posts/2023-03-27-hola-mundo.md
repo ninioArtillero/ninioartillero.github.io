@@ -3,6 +3,7 @@ title: "Que pedo Mundo"
 layout: post
 author: ninioArtillero
 category: poetry
+locale: es_MX
 ---
 
 Dios dijo
