@@ -60,13 +60,11 @@ integer preserves order" can be specified as well.[^real-world]
 [^real-world]: Liquid Haskell has been used to specify and verify complex properties in significant portions of major Haskell libraries. See _LiquidHaskell: Experience with Refinement Types in the Real World_ @ <https://dl.acm.org/doi/10.1145/2633357.2633366>.
 
 ```haskell
-
 {-@ type OrderedPair = { pair : (Int,Int) | fst pair < snd pair } @-}
 
 {-@ escalarMultiplication :: Pos -> OrderedPair -> OrderedPair @-}
 escalarMultiplication :: Int -> (Int,Int) -> (Int,Int)
 escalarMultiplication n (x,y) = (n * x, n * y)
-
 ```
 
 Note that we can use regular Haskell functions in the predicates, here `fst` and
@@ -150,6 +148,7 @@ Modify the contents of `src/MyLib.hs` to include the examples from before.
 
 ```haskell
 module MyLib where
+
 {-@ type Pos = {v : Int | v > 0} @-}
 
 {-@ succ :: Pos -> Pos @-}
