@@ -2,7 +2,7 @@
 title: "A Liquid Haskell Kick-Start"
 layout: post
 author: Xavier Góngora
-categories:
+tags:
 - programming languages
 - type systems
 - formal methods
