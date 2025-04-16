@@ -4,16 +4,10 @@ description: >
   Encuentros con chilacayotas cósmicas y piratas truchas.
 author: Xavier Góngora
 email: "xaviergongora.contacto@gmail.com"
-tagline: Xavier Gongora's personal blog
+tagline: Xavier Gongora's personal site and blog
 locale: en_US
 
 theme: minima
-
-# Runtime gem dependencies of minima
-#
-# plugins:
-#  - jekyll-feed
-#  - jekyll-seo-tag
 
 # Social profiles
 # SEO-tag
@@ -25,14 +19,14 @@ social:
     - https://social.toplap.org/@xg
     - https://www.instagram.com/ninioartillero
 
-#
-# Theme-specific settings
-#
+###########################
+# Theme-specific settings #
+###########################
 
 # Social links
-#
 github_username:  ninioArtillero
 instagram_username: ninioArtillero
+youtube_username: "@ninioArtillero"
 rss: rss
 
 mastodon:
@@ -43,12 +37,10 @@ minima:
   skin: auto
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
-  #
   date_format: "%Y-%m-%d"
 
-# If you want to link only specific pages in your header, uncomment this and add the path to the pages in
-# order as they should show up.
-#
+# If you want to link only specific pages in your header,
+# uncomment this and add the path to the pages in order as they should show up.
 header_pages:
   - activities.md
   - music.md
@@ -57,8 +49,7 @@ header_pages:
   - archive.md
   - about.md
 
-# Set to `true` to show excerpts on the homepage.
-#
+# Show excerpts on the homepage.
 show_excerpts: true
 
 defaults:
