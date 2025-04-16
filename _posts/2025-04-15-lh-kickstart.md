@@ -90,8 +90,9 @@ is that we can express properties of our code and document its behaviour _in pla
 First, we'll need the Haskell toolchain: `cabal` to manage the project
 and the `ghc` Haskell compiler. The (current) recommended way to install and
 manage both is  through [GHCup](https://www.haskell.org/ghcup/).[^nix]
-After installing it with the default options, install the `ghc` version corresponding
-to the latest LH version (check the docs, at the time of writing this is `9.10.1`).[^ghc-policy]
+After installing it with the default options, install a `ghc` version that corresponds
+to a LH release (check the [docs](https://ucsd-progsys.github.io/liquidhaskell/install/)).
+In this tutorial we'll use  `ghc-9.10.1` and `liquidhaskell-0.9.10.1.2`.[^ghc-policy]
 
 [^nix]: Other common alternatives are using the [Stack build tool](https://www.haskellstack.org/) or the [Nix package manager](https://nixos.org/). Nix is a comprehensive tool (and language!) for reproducible package deployment, which can also be use to create declarative development environments.
 
@@ -104,7 +105,7 @@ It creates a new cabal project for our tutorial, with the corresponding `base`
 and `liquidhaskell` versions as dependencies,
 and configures it to use the corresponding version of `ghc`.
 
-[^ghc-policy]: As mentioned in the [LH source repository README](https://github.com/ucsd-progsys/liquidhaskell/), LH is developed against a specific version of `ghc` given its tight dependence on the `ghc` library which tends to break existing code without notice (in particular, because a distinction does not yet exists between public and internal API's).
+[^ghc-policy]: As mentioned in the [LH source repository README](https://github.com/ucsd-progsys/liquidhaskell/), LH is developed against a specific version of `ghc` given its tight dependence on the `ghc` library which tends to break existing code without notice (in particular, because a distinction does not yet exists between public and internal API's). At the momento of writing, previous versions of `liquidhaskell` are not maintained, so that new features and bug fixes reach only the next major and minor releases monotonically.
 
 ```sh
 mkdir lh-tutorial && cd lh-tutorial && \
@@ -181,6 +182,8 @@ the `liquid-fixpoint` package is also cloned (needed for the build).
 git clone --recurse-submodules https://github.com/ucsd-progsys/liquidhaskell.git
 ```
 
+The upstream source is developed against the `ghc` version corresponding to its
+latest realease, so make sure to install it (at the time of writing its `9.12.2`).
 The build instructions can be found at the source repository
 [README](https://github.com/ucsd-progsys/liquidhaskell/blob/192b8766a521c6bef8be2b61c6fda3a1b53783fb/README.md),
 suggest using the following command:
@@ -190,9 +193,13 @@ cabal build liquidhaskell
 ```
 
 This _should_ build, but cabal is know to have its quirks. If it does, proceed
-with the following instructions. If it doesn't, carefully check the installation
-documentation at the source repository and the documentation site. If the problem
-persists, consider rising an [issue](https://github.com/ucsd-progsys/liquidhaskell/issues).
+to the next section. If it doesn't, carefully check the installation
+documentation at the source repository and the documentation site.
+It is possible that your current cabal library version does not
+support the needed `ghc` version (check the error message), so you might need to
+change (_set_) it. Installation and _set_ of different versions of Haskell tools
+can be done within `ghcup tui`. If the problem persists, consider rising an
+[issue](https://github.com/ucsd-progsys/liquidhaskell/issues).
 
 
 ### Symlink
