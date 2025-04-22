@@ -2,7 +2,11 @@
 title: "Live coding with Tidal Cycles Workshop in Tepoztlán"
 layout: post
 author: Xavier Góngora
-category: report
+tags:
+- report
+- live coding
+- workshop
+- tidal cycles
 ---
 Last year I got a Tidal Cycles micro-grant in October to organize a live coding introductory workshop in Tepoztlán.[^1]
 My first son was born the month after and it has been an awesome ride!
@@ -77,7 +81,7 @@ It was fun seeing them go wild with the few functions I showed them.
 ## Aftermath
 
 In this first workshop I might have overwhelmed the participants by showing too much notation too soon.
-Next time we could do short solo test rounds when introducing syntax elements. 
+Next time we could do short solo test rounds when introducing syntax elements.
 This might improve the understanding of all and help build confidence.
 Furthermore, those rounds could be structured by following an introductory tutorial.
 

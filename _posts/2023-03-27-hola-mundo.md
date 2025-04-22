@@ -2,7 +2,8 @@
 title: "Que pedo Mundo"
 layout: post
 author: ninioArtillero
-category: poetry
+tags:
+- poetry
 locale: es_MX
 ---
 
