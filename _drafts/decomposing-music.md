@@ -2,7 +2,7 @@
 title: "Musical dimensions"
 layout: post
 author: Xavier Góngora
-categories:
+tags:
 - programming languages
 - music notation
 - music theory

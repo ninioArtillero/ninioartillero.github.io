@@ -2,7 +2,7 @@
 title: "Antecedentes y retrospectiva"
 layout: post
 author: Xavier Góngora
-categories:
+tags:
 - reflection
 ---
 Un antecedente importante de este sitio fue mi contacto con [git](https://git-scm.com/),

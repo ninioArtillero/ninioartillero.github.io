@@ -3,7 +3,7 @@ title: "Crafting My Proposal for Google Summer of Code"
 layout: post
 author: Xavier Góngora
 locale: es_MX
-categories:
+tags:
 - google summer of code
 - open source
 - codigo abierto

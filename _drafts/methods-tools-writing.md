@@ -2,7 +2,7 @@
 title: "Research methods and tools"
 layout: post
 author: Xavier Góngora
-categories:
+tags:
 - academic research
 - writing
 ---

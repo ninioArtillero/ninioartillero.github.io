@@ -2,7 +2,7 @@
 title: "Single Source Publishing"
 layout: post
 author: Xavier Góngora
-categories:
+tags:
 - writing
 - file conversion
 ---
