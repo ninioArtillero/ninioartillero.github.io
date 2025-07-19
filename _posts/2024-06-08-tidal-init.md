@@ -31,7 +31,7 @@ real state black market, that neglects the National Park status and regulations,
 and annual fires that threaten the ecosystem.
 In this context, nurturing community is critical to counteract the dismantling of the social fabric.
 This is no easy task, as the social spheres seem to orbit different stars at times.
-Before this workshop I gave a talk at the central church about algorithms and live coding practice.
+Before this workshop, I gave a talk at the central church about algorithms and live coding practice.
 So this is a second effort towards sharing both my artistic and research interests with my local community,
 as most of my activities are usually online or in Mexico City.
 
@@ -39,7 +39,7 @@ as most of my activities are usually online or in Mexico City.
 
 ![The four workshop participants.](/imgs/2024-tidal-init/7.jpg)
 
-Four people came to the workshop. Alejandro is an economist but works as a carpenter for a living.
+Four people came to the workshop. Alejandro is an economist, but works as a carpenter for a living.
 Roberto is a front-end developer and environmental activist that links the preservation of the mountains and forests with
 the rights of the indigenous people of Tepoztlán.
 A second Alejandro is a high school senior involved with his neighborhood committee, he wants to study to become a mechatronics engineer.
@@ -55,15 +55,15 @@ He made the necessary arrangements for an association of friends and neighbors t
 Unfortunately, the funds he left to kickstart activities are being held hostage by a bank (legal action has moved slowly),
 and the doors have stayed shut except for some isolated events (of which ours is an example).
 The house has an exotic architecture, a rich color palette, and is full of little artifacts that Fernando collected.
-It was really a nice place to held the workshop and could become a spot for live coding sessions.
+It was really a nice place to held the workshop and could become a spot for regular live coding sessions.
 
 ## The workshop
 
 For the first half of the workshop I gave an introductory talk.
 First we discussed free and open source software as a
 strategy to harness community efforts and build people centered technology.
-Then I talked about what live coding in general, sharing some online references and
-broadly explained what it meant in the context of computer music.
+Then I introduced the broader live coding practice, sharing some online references, and
+explained what it meant in the context of computer music.
 This set the stage to introduce Tidal's architecture.
 Before the break, we watched a video performance of Alex McLean (Tidal's creator) doing a from-scratch session.
 The slide presentation is available [here](https://docs.google.com/presentation/d/e/2PACX-1vQ8h38f0t9CYkyP1UftIe1l-mmtrQjxeYh7i5sU4nfKoINEiV3xXKlgnFXlWsV3QWcKoNI94d-5RFfU/pub?start=false&loop=false&delayms=0).
