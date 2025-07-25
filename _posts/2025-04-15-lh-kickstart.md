@@ -105,7 +105,7 @@ It creates a new cabal project for our tutorial, with the corresponding `base`
 and `liquidhaskell` versions as dependencies,
 and configures it to use the corresponding version of `ghc`.
 
-[^ghc-policy]: As mentioned in the [LH source repository README](https://github.com/ucsd-progsys/liquidhaskell/), LH is developed against a specific version of `ghc` given its tight dependence on the `ghc` library which tends to break existing code without notice (in particular, because a distinction does not yet exists between public and internal API's). At the momento of writing, previous versions of `liquidhaskell` are not maintained, so that new features and bug fixes reach only the next major and minor releases monotonically.
+[^ghc-policy]: As mentioned in the [LH source repository README](https://github.com/ucsd-progsys/liquidhaskell/), LH is developed against a specific version of `ghc` given its tight dependence on the `ghc` library which tends to break existing code without notice (in particular, because a distinction does not yet exists between public and internal API's). At the moment of writing, previous versions of `liquidhaskell` are not maintained, so that new features and bug fixes reach only the next major and minor releases monotonically.
 
 ```sh
 mkdir lh-tutorial && cd lh-tutorial && \
