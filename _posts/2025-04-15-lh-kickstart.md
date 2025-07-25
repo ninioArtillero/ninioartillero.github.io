@@ -23,9 +23,9 @@ More detailed information can be found at the LH
 [source repository](https://github.com/ucsd-progsys/liquidhaskell).
 
 LH is under active development, with a focus on quality-of-life features that make
-it a breeze to use. I believe that using _refinement types_ to specify programs
-unlocks expressive possibilities, enabling stronger guarantees and clearer intent,
-that are worth exploring.
+it a breeze to use (or maybe not quite yet, but its getting there). I believe that
+using _refinement types_ to specify programs unlocks expressive possibilities,
+enabling stronger guarantees and clearer intent, that are worth exploring.
 
 ## About Liquid Haskell
 
@@ -57,10 +57,7 @@ succ n = n + 1
 Other arithmetic properties like "multiplication by a positive
 integer preserves order" can be specified as well.[^real-world]
 
-[^real-world]: Liquid Haskell has been used to specify and verify complex
-properties in significant portions of major Haskell libraries. See
-_LiquidHaskell: Experience with Refinement Types in the Real World_ @
-<https://dl.acm.org/doi/10.1145/2633357.2633366>.
+[^real-world]: Liquid Haskell has been used to specify and verify complex properties in significant portions of major Haskell libraries. See _LiquidHaskell: Experience with Refinement Types in the Real World_ @ <https://dl.acm.org/doi/10.1145/2633357.2633366>.
 
 ```haskell
 {-@ type OrderedPair = { pair : (Int,Int) | fst pair < snd pair } @-}
@@ -97,11 +94,7 @@ After installing it with the default options, install a `ghc` version that corre
 to a LH release (check the [docs](https://ucsd-progsys.github.io/liquidhaskell/install/)).
 In this tutorial we'll use  `ghc-9.10.1` and `liquidhaskell-0.9.10.1.2`.[^ghc-policy]
 
-[^nix]: Other common alternatives are using the
-[Stack build tool](https://www.haskellstack.org/) or the
-[Nix package manager](https://nixos.org/). Nix is a comprehensive tool
-(and language!) for reproducible package deployment, which can also be use to
-create declarative development environments.
+[^nix]: Other common alternatives are using the [Stack build tool](https://www.haskellstack.org/) or the [Nix package manager](https://nixos.org/). Nix is a comprehensive tool (and language!) for reproducible package deployment, which can also be use to create declarative development environments.
 
 ```sh
 ghcup install ghc 9.10.1
@@ -112,14 +105,7 @@ It creates a new cabal project for our tutorial, with the corresponding `base`
 and `liquidhaskell` versions as dependencies,
 and configures it to use the corresponding version of `ghc`.
 
-[^ghc-policy]: As mentioned in the
-[LH source repository README](https://github.com/ucsd-progsys/liquidhaskell/),
-LH is developed against a specific version of `ghc` given its tight dependence on
-the `ghc` library which tends to break existing code without notice (in particular,
-because a distinction does not yet exists between public and internal API's).
-At the momento of writing, previous versions of `liquidhaskell` are not maintained,
-so that new features and bug fixes reach only the next major and minor releases
-monotonically.
+[^ghc-policy]: As mentioned in the [LH source repository README](https://github.com/ucsd-progsys/liquidhaskell/), LH is developed against a specific version of `ghc` given its tight dependence on the `ghc` library which tends to break existing code without notice (in particular, because a distinction does not yet exists between public and internal API's). At the momento of writing, previous versions of `liquidhaskell` are not maintained, so that new features and bug fixes reach only the next major and minor releases monotonically.
 
 ```sh
 mkdir lh-tutorial && cd lh-tutorial && \
@@ -214,7 +200,6 @@ support the needed `ghc` version (check the error message), so you might need to
 change (_set_) it. Installation and _set_ of different versions of Haskell tools
 can be done within `ghcup tui`. If the problem persists, consider rising an
 [issue](https://github.com/ucsd-progsys/liquidhaskell/issues).
-
 
 ### Symlink
 
