@@ -2,11 +2,17 @@
 layout: page
 title: About
 ---
-## Semblance
+## Semblance/Semblanza
+
+Niño Artillero (Xavier Góngora, 1988) es ingeniero de software con enfoque en programación funcional y métodos formales, tecnólogo musical especializado en música computacional, multiinstrumentista y live coder. Estas facetas convergen en el uso de Haskell como medio creativo, expresivo e investigativo: con Tidal Cycles programa música en vivo, y con las herramientas formales y su formación en matemáticas estudia la estructura del ritmo.
+Su práctica musical parte del juego y la improvisación. Trabaja con grabaciones de campo y música sampleada, re-apropiándose del material sonoro para nuevos propósitos: a veces como cita o sinécdoque, a veces perdiendo toda referencia. Desde ahí compone y transforma patrones algorítmicos para explorar la geometría del ritmo no como teoría explicativa, sino como potencialidad generativa.
+
+Niño Artillero (Xavier Góngora, 1988) is a software engineer focused on functional programming and formal methods, a music technologist specializing in computer music, a multi-instrumentalist, and a live coder. These facets converge in the use of Haskell as a creative, expressive, and investigative medium: with Tidal Cycles he programs music live, and with formal tools and his background in mathematics he studies the structure of rhythm.
+His musical practice begins with play and improvisation. He works with field recordings and sampled music, re-appropriating sound material for new purposes: sometimes as quotation or synecdoche, sometimes shedding all reference. From there he composes and transforms algorithmic patterns to explore the geometry of rhythm not as an explanatory theory, but as generative potential.
+
+## Bio
 
 Xavier Góngora was introduced to jazz improvisation by composer Alberto Palomo in Mérida, Yucatán. While pursuing his degree in mathematics at UNAM, he delved into complex and quantum geometry under the mentorship of Micho Durdevich, who ignited his passion for the transdisciplinary exploration of mathematics and music. He went on to earn a Master’s degree in Music Technology from UNAM, with a thesis on remixing and sampling as forms of composition and re-appropriation, guided by Jorge David García. Currently, he draws inspiration from the mountains of Tepoztlán as he works on his doctoral thesis, which explores the intersections of programming languages, music, and geometry. His personal musical project, Niño Artillero, embodies his interdisciplinary approach, blending elements of art, mathematics, and technology. Together with visual and plastic artist Victoria Karmín, he shares a commitment to supporting each other’s vision through dedication to life, caregiving, and freedom. Through his work and word, Xavier incorporates the teachings of his mentors, honoring the dignity of his lineage.
-
-## Semblanza
 
 Xavier Góngora fue iniciado en la improvisación jazzística por el compositor Alberto Palomo en Mérida, Yucatán. Matemático egresado de la UNAM, estudió geometría compleja y cuántica con Micho Durdevich, a quién debe su vocación al estudio transdisciplinario de las matemáticas y la música. Adquirió el grado de Maestro en Tecnología Musical por la UNAM con su tesis sobre remix y sampleo como formas de composición y re-apropiación bajo la guía de Jorge David García. Actualmente es discípulo de las montañas de Tepoztlán y trabaja en una tesis de doctorado sobre lenguajes de programación, música y geometría. Niño Artillero es su proyecto musical personal. Mantiene un compromiso de vida, cuidado y libertad con la artista visual y plástica Victoria Karmín. Con su obra y palabra, Xavier incorpora las enseñanzas de sus maestros en la expresión de la dignidad de su linaje.
 
