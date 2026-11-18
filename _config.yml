@@ -17,7 +17,7 @@ social:
     - https://soundcloud.com/ninioartillero
     - https://github.com/ninioArtillero
     - https://social.toplap.org/@xg
-    - https://www.instagram.com/ninioartillero
+    #- https://www.instagram.com/ninioartillero
 
 ###########################
 # Theme-specific settings #
@@ -25,7 +25,7 @@ social:
 
 # Social links
 github_username:  ninioArtillero
-instagram_username: ninioArtillero
+#instagram_username: ninioArtillero
 youtube_username: "@ninioArtillero"
 rss: rss
 
