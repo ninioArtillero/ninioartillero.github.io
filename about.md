@@ -28,7 +28,7 @@ Xavier Góngora fue iniciado en la improvisación jazzística por el compositor 
 
 [Desktop Computer Parts](https://pcpartpicker.com/b/6gk6Mp)
 
-## References
+## References and Dwellings
 
 ### Community Forums
 
@@ -39,6 +39,8 @@ Xavier Góngora fue iniciado en la improvisación jazzística por el compositor 
 [Algorithmic Pattern](https://forum.alpaca.lurk.org/)
 
 [LinuxMusicians](https://linuxmusicians.com/)
+
+[Haskell](https://discourse.haskell.org/)
 
 ### Personal Sites
 
@@ -57,6 +59,8 @@ Blackwell, Alan F., Emma Cocker, Geoff Cox, Alex McLean, y Thor Magnusson. 2022.
 García Castilla, Jorge David. 2015. [_Ruido Libre. La economía musical de la política_](https://elinstantedesisifo.cc/2022/03/22/ruido-libre-3/). Tesis doctoral, Ciudad de México: Universidad Nacional Autónoma de México.
 
 García Castilla, Jorge David, y Pablo Silva Treviño, eds. 2022. [_Algoritmos arruinados. Perspectivas situadas de tecnología musical._](http://www.repositorio.fam.unam.mx/handle/123456789/139) Alterfonías 2. Facultad de Música.
+
+Graeber, David, David Wengrow. 2021. _The Dawn of Everything: A New History of Humanity._
 
 Hofstadter, Douglas R. 1982. _Gödel, Escher, Bach: una eterna trenza dorada._ México: Consejo Nacional de Ciencia y Tecnología.
 
